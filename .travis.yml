@@ -16,10 +16,10 @@ install:
 script:
   # Check the role/playbook's syntax.
 
-  - ansible-playbook -i tests/inventory/test tests/$SITE --syntax-check
+  - ansible-playbook -i tests/inventory tests/$SITE --syntax-check
 
   # Run the role/playbook with ansible-playbook.
-  - ansible-playbook -i tests/inventory/test tests/$SITE --connection=local
+  - ansible-playbook -i tests/inventory tests/$SITE --connection=local
 
   # Ensure Ansible Cloned
   - >
