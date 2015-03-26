@@ -12,6 +12,7 @@ before_install:
 install:
   # Install Ansible 1.8.4 per these tests.
   - pip install ansible==1.8.4
+  - printf '[defaults]\nroles_path = ../' > ansible.cfg
 
 script:
   # Check the role/playbook's syntax.
