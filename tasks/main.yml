@@ -1,0 +1,3 @@
+- git: repo={{ gitRepo }}
+       dest={{ gitDest }}
+       version={{ gitVersion }}

@@ -1,0 +1,5 @@
+---
+
+gitRepo: https://github.com/ansible/ansible.git
+gitDest: ~/ansible
+gitVersion: master
