@@ -2,4 +2,4 @@
 
 gitRepo: https://github.com/ansible/ansible.git
 gitDest: ~/ansible
-gitVersion: master
+gitVersion: release1.8.4
